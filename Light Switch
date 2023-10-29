@@ -6,7 +6,7 @@ void setup() {
 
 void loop() {
   int val = digitalRead(2);
-  if(digitalRead(6) == true){
+  if(val == 0){
      digitalWrite(6,true);
   }
   else{
