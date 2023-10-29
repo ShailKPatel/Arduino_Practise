@@ -1,0 +1,9 @@
+void setup() {
+  pinMode(12,INPUT_PULLUP);
+  Serial.begin(9600);
+}
+
+void loop() {
+  int val = digitalRead(12);
+  Serial.println(val);
+}
